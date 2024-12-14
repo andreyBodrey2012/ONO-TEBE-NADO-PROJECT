@@ -51,7 +51,7 @@ main {
 }
 
 
-.header > nav > ul{
+.header > nav > ul {
     list-style: circle;
     padding: 0;
     margin: 0;
@@ -188,6 +188,7 @@ main {
 .lots > ul {
     list-style: none;
     display: grid;
+    
     grid-template-columns: 1fr 1fr 1fr;   
     margin-top: 27px;
     column-gap: 25px;
@@ -203,6 +204,7 @@ main {
     text-align: left;
     color: white;
     text-decoration-line: underline;
+    
     text-decoration-style: solid;
     z-index: 2; 
 }
@@ -344,12 +346,11 @@ main {
     margin-left: 2px;
     border: 1px 0px 0px 0px;
     font-size: 18px;
-    font-weight: 400;
     line-height: 24.3px;
     text-align: left;
 }
 
-.footer nav  {
+.footer nav {
     width: 149px;
     height: 64px;
     margin-top: -100px;
